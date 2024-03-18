@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 from PIL import Image
-from src.utils import get_width_height, resize_image
+from utils import get_width_height, resize_image
 
 def page3():
     st.title("OpenAI DALL·E Image Variation")
