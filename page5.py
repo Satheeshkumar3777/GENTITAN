@@ -1,11 +1,5 @@
 import streamlit as st
 from PIL import Image
-from diffusers import StableDiffusionImg2ImgPipeline
-
-def load_diffusion_model():
-    # Load diffusion model
-    pipeline = StableDiffusionImg2ImgPipeline.from_pretrained("stabilityai/stable-diffusion-xl-refiner-1.0")
-    return pipeline
 
 def generate_image(uploaded_image, prompt):
     # Load diffusion model
