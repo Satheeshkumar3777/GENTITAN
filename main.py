@@ -1,10 +1,10 @@
 import streamlit as st
-from src.page1 import page1
-from src.page2 import page2
-from src.page3 import page3
-from src.page4 import page4
-from src.page5 import page5
-from src.img2img import img2img
+from page1 import page1
+from page2 import page2
+from page3 import page3
+from page4 import page4
+from page5 import page5
+from img2img import img2img
 import openai
 import os
 from dotenv import load_dotenv
