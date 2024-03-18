@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-from diffusers import DiffusionPipeline
 from diffusers import StableDiffusionImg2ImgPipeline
 
 def load_diffusion_model():
